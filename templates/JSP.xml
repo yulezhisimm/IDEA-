@@ -1,0 +1,33 @@
+<templateSet group="JSP">
+  <template name="tr+" value=" var tr = '';&#10;                $.each(data.beanList, function (i, v) {&#10;                    tr += '';&#10;                });&#10;                tr = tr === '' ? '&lt;TR&gt;&lt;td&gt;&lt;/td&gt;&lt;/TR&gt;' : tr;&#10;                totalPage = data.totalPage;&#10;                $('#tab_list').html(tr);&#10;                $('#totalPage').html('' + data.pageCode + '/' + totalPage + '页' + '   总记录数 ' + data.totalRecord);&#10;" description="快速拼接循环tr" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="url" value="&lt;c:url value=&quot;$end$&quot;/&gt;" description="c:url" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="jss" value="&lt;script src=&quot;&lt;c:url value=&quot;$end$&quot;/&gt;&quot;&gt;&lt;/script&gt;" description="快速导入js" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="link" value="&lt;link rel=stylesheet type=text/css href=&quot;&lt;c:url value=&quot;$end$&quot;/&gt;&quot;&gt;" description="快速导入样式文件" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="js" value="&lt;script&gt;&#10;        $(function () {&#10;            $end$&#10;        })&#10;    &lt;/script&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

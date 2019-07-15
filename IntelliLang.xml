@@ -1,0 +1,6 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="SOURCE_MODIFICATION_ALLOWED" value="true" />
+    <option name="USE_DFA_IF_AVAILABLE" value="true" />
+  </component>
+</application>

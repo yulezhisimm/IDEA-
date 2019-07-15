@@ -1,0 +1,11 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="5bf92e0e-41fd-459b-90e5-71f5cc57ce30" name="yulezhisimm@outlook.com">
+      <server host="github.com" />
+    </account>
+  </component>
+  <component name="GithubSettings">
+    <option name="OPEN_IN_BROWSER_GIST" value="false" />
+    <option name="CLONE_GIT_USING_SSH" value="true" />
+  </component>
+</application>
