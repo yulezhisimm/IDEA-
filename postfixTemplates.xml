@@ -1,0 +1,17 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="com.intellij.codeInsight.template.postfix.templates.NewExpressionPostfixTemplate#.new" key=".new" provider="builtin.java" builtin="com.intellij.codeInsight.template.postfix.templates.NewExpressionPostfixTemplate#.new" />
+    <template id="error@userDefined" key=".error" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="Log.logger.error($EXPR$);$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="log@userDefined" key=".log" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="Log.logger.info($EXPR$ + &quot;&quot;);$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>

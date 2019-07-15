@@ -1,0 +1,5 @@
+<application>
+  <component name="MavenRunHelper">
+    <option name="useIgnoredPoms" value="true" />
+  </component>
+</application>
