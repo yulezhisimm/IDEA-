@@ -35,6 +35,14 @@
       <SOURCES />
       <jarDirectory url="file://D:/OneDrive/CODE/projectShared/lib/dom4j" recursive="false" />
     </library>
+    <library name="hibernate-5.0">
+      <CLASSES>
+        <root url="file://D:/OneDrive/CODE/projectShared/framework_lib/hibernate-5.0.7final" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://D:/OneDrive/CODE/projectShared/framework_lib/hibernate-5.0.7final" recursive="false" />
+    </library>
     <library name="javaEE 6">
       <CLASSES>
         <root url="file://D:/OneDrive/CODE/projectShared/lib/javaEE 6" />
