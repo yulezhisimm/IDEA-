@@ -1,9 +1,0 @@
-<application>
-  <component name="AlipaySettings">
-    <option name="authInfo">
-      <IdeAuthInfo>
-        <option name="version" value="com.alipay.antcloud.ide-1.0.11" />
-      </IdeAuthInfo>
-    </option>
-  </component>
-</application>

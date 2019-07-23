@@ -1,5 +1,0 @@
-<application>
-  <component name="NotificationConfiguration" showBalloons="false">
-    <notification groupId="FindBugs: Analysis Finished" displayType="NONE" shouldLog="false" />
-  </component>
-</application>
