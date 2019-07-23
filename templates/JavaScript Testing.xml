@@ -1,0 +1,7 @@
+<templateSet group="JavaScript Testing">
+  <template name="'++'" value="'+$SELECTION$+'" description="拼接字符串参数" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

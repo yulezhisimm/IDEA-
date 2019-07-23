@@ -1,0 +1,18 @@
+<application>
+  <component name="AlipayAppBaseInfoProject">
+    <option name="projects">
+      <map>
+        <entry key="D:/OneDrive/CODE/Project/HelloWorld/Demo01">
+          <value>
+            <AppBaseInfo>
+              <option name="appId" value="2019062465623957" />
+              <option name="appName" value="pay01" />
+              <option name="appType" value="ISVAPP" />
+              <option name="logoUrl" value="https://tfsimg.alipay.com/images/openhome/TB18dUxa_XGDuNjmf7Ywu3taXXa.png" />
+            </AppBaseInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

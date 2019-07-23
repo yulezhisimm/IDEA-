@@ -1,0 +1,370 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="CompilerConfiguration">
+        <option name="BUILD_PROCESS_HEAP_SIZE" value="1400" />
+        <annotationProcessing>
+          <profile default="true" name="Default" enabled="true" />
+        </annotationProcessing>
+      </component>
+      <component name="DependencyValidationManager">
+        <scope name="onWorking" pattern="" />
+      </component>
+      <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+        <file url="PROJECT" charset="UTF-8" />
+      </component>
+      <component name="JsFlowSettings">
+        <service-enabled>true</service-enabled>
+        <exe-path />
+        <other-services-enabled>true</other-services-enabled>
+        <auto-save>true</auto-save>
+      </component>
+      <component name="NamedScopeManager">
+        <order>
+          <scope name="onWorking" />
+        </order>
+      </component>
+      <component name="ProjectDictionaryState">
+        <dictionary name="Administrator" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+              <State>
+                <id>Angular</id>
+              </State>
+              <State>
+                <id>Application Servers</id>
+              </State>
+              <State>
+                <id>CDI (Contexts and Dependency Injection)</id>
+              </State>
+              <State>
+                <id>Class structureJava</id>
+              </State>
+              <State>
+                <id>Code maturityJava</id>
+              </State>
+              <State>
+                <id>Code style issuesJava</id>
+              </State>
+              <State>
+                <id>Code style issuesJavaScript</id>
+              </State>
+              <State>
+                <id>CoffeeScript</id>
+              </State>
+              <State>
+                <id>Data flowJava</id>
+              </State>
+              <State>
+                <id>Declaration redundancyJava</id>
+              </State>
+              <State>
+                <id>ECMAScript 6 migration aidsJavaScript</id>
+              </State>
+              <State>
+                <id>Faces Model</id>
+              </State>
+              <State>
+                <id>GeneralCoffeeScript</id>
+              </State>
+              <State>
+                <id>GeneralJavaScript</id>
+              </State>
+              <State>
+                <id>Guice</id>
+              </State>
+              <State>
+                <id>Hibernate</id>
+              </State>
+              <State>
+                <id>JBoss Seam</id>
+              </State>
+              <State>
+                <id>JPA</id>
+              </State>
+              <State>
+                <id>Java</id>
+              </State>
+              <State>
+                <id>Java EE</id>
+              </State>
+              <State>
+                <id>JavaScript</id>
+              </State>
+              <State>
+                <id>JavadocJava</id>
+              </State>
+              <State>
+                <id>Kotlin</id>
+              </State>
+              <State>
+                <id>Node.jsJavaScript</id>
+              </State>
+              <State>
+                <id>Potentially confusing code constructsJavaScript</id>
+              </State>
+              <State>
+                <id>Probable bugsKotlin</id>
+              </State>
+              <State>
+                <id>Properties Files</id>
+              </State>
+              <State>
+                <id>Reactor</id>
+              </State>
+              <State>
+                <id>Redundant constructsKotlin</id>
+              </State>
+              <State>
+                <id>Spring</id>
+              </State>
+              <State>
+                <id>Spring CoreSpring</id>
+              </State>
+              <State>
+                <id>Struts</id>
+              </State>
+              <State>
+                <id>Struts 1Struts</id>
+              </State>
+              <State>
+                <id>Style issuesKotlin</id>
+              </State>
+              <State>
+                <id>VisibilityJava</id>
+              </State>
+              <State>
+                <id>XMLSpring CoreSpring</id>
+              </State>
+            </expanded-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+        <output url="file://D:/out" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="D:/OneDrive/CODE/projectShared/lib/commons" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="project.structure.last.edited" value="Project" />
+        <property name="project.structure.proportion" value="0.0" />
+        <property name="project.structure.side.proportion" value="0.2" />
+        <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+      </component>
+      <component name="RunDashboard">
+        <option name="ruleStates">
+          <list>
+            <RuleState>
+              <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+            </RuleState>
+            <RuleState>
+              <option name="name" value="StatusDashboardGroupingRule" />
+            </RuleState>
+          </list>
+        </option>
+      </component>
+      <component name="RunManager">
+        <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="false">
+          <option name="UPDATING_POLICY" value="restart-server" />
+          <deployment />
+          <server-settings>
+            <option name="BASE_DIRECTORY_NAME" value="_Default_(Template)_Project" />
+          </server-settings>
+          <log_file alias="log4j2" path="D:/OneDrive/Log/test.log" show_all="true" />
+          <predefined_log_file enabled="true" id="Tomcat" />
+          <predefined_log_file enabled="true" id="Tomcat Catalina" />
+          <predefined_log_file id="Tomcat Manager" />
+          <predefined_log_file id="Tomcat Host Manager" />
+          <predefined_log_file id="Tomcat Localhost Access" />
+          <RunnerSettings RunnerId="Debug">
+            <option name="DEBUG_PORT" value="13123" />
+          </RunnerSettings>
+          <RunnerSettings RunnerId="JRebel Debug">
+            <option name="DEBUG_PORT" value="13124" />
+          </RunnerSettings>
+          <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+            <option name="USE_ENV_VARIABLES" value="true" />
+            <STARTUP>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </STARTUP>
+            <SHUTDOWN>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </SHUTDOWN>
+          </ConfigurationWrapper>
+          <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+            <option name="USE_ENV_VARIABLES" value="true" />
+            <STARTUP>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </STARTUP>
+            <SHUTDOWN>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </SHUTDOWN>
+          </ConfigurationWrapper>
+          <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+            <option name="USE_ENV_VARIABLES" value="true" />
+            <STARTUP>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </STARTUP>
+            <SHUTDOWN>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </SHUTDOWN>
+          </ConfigurationWrapper>
+          <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+            <option name="USE_ENV_VARIABLES" value="true" />
+            <STARTUP>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </STARTUP>
+            <SHUTDOWN>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </SHUTDOWN>
+          </ConfigurationWrapper>
+          <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+            <option name="USE_ENV_VARIABLES" value="true" />
+            <STARTUP>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </STARTUP>
+            <SHUTDOWN>
+              <option name="USE_DEFAULT" value="true" />
+              <option name="SCRIPT" value="" />
+              <option name="VM_PARAMETERS" value="" />
+              <option name="PROGRAM_PARAMETERS" value="" />
+            </SHUTDOWN>
+          </ConfigurationWrapper>
+          <method v="2">
+            <option name="Make" enabled="true" />
+          </method>
+        </configuration>
+      </component>
+      <component name="ValidationConfiguration">
+        <option name="VALIDATE_ON_BUILD" value="true" />
+        <option name="VALIDATORS">
+          <map>
+            <entry key="EJB Validator" value="true" />
+            <entry key="Faces Validator" value="true" />
+            <entry key="FreeMarker" value="true" />
+            <entry key="Hibernate Validator" value="true" />
+            <entry key="JPA Validator" value="true" />
+            <entry key="Jasper Validator" value="true" />
+            <entry key="Spring Model Validator" value="true" />
+            <entry key="Spring Web Flow" value="true" />
+            <entry key="Struts 2 Model Validator" value="true" />
+            <entry key="Struts 2 Validation Model Validator" value="true" />
+            <entry key="Struts Model validator" value="true" />
+            <entry key="Struts Validation Model validator" value="true" />
+            <entry key="Tiles Model validator" value="true" />
+            <entry key="Web Xml Validator" value="true" />
+          </map>
+        </option>
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ArquillianSettingsConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="GlobalLibrariesConfigurable.UI">
+            <settings>
+              <last-edited>commons</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="JdkListConfigurable.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>1.8</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ProjectLibrariesConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <last-edited>onWorking</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+              <order>
+                <scope name="onWorking" />
+              </order>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

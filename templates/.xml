@@ -1,0 +1,16 @@
+<templateSet group="业务">
+  <template name="dopage" value=" try {&#10;            String countSql = &quot;&quot;;&#10;            String sql = &quot;&quot;;&#10;            &#10;            int totalRecode = qr.query(countSql, new ScalarHandler&lt;Number&gt;(), aid)&#10;                                .intValue();&#10;            List&lt;$var$&gt; beanList = qr.query(sql,new $var2$,$var3$,pageCode,pageSize,pageCode,pageSize);&#10;            PageBean&lt;$var$&gt; pageBean = new PageBean&lt;&gt;();&#10;            pageBean.setBeanList(beanList);&#10;            pageBean.setTotalRecord(totalRecode);&#10;            pageBean.setPageSize(pageSize);&#10;            pageBean.setPageCode(pageCode);&#10;            return pageBean;&#10;        } catch (Exception e) {&#10;            e.printStackTrace();&#10;        }&#10;        return null;" description="分页的sql 部分" toReformat="true" toShortenFQNames="true">
+    <variable name="var2" expression="subtypes(TYPE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="subtypes(TYPE)" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="subtypes(TYPE)" defaultValue="Map&lt;String, Object&gt;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="login" value="    public String login(HttpServletRequest req, HttpServletResponse res) {&#10;        String username = req.getParameter(&quot;username&quot;);&#10;        String password = req.getParameter(&quot;password&quot;);&#10;        User u = dao.findUserByName(username);&#10;        &#10;        if (u != null &amp;&amp; password.equals(u.getPwd())) {&#10;            req.getSession()&#10;               .setAttribute(&quot;user&quot;, u);&#10;            return &quot;r:$var$/index.jsp&quot;;&#10;        }&#10;        return &quot;r:$var$/login.jsp&quot;;&#10;    }" description="登录" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

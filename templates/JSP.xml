@@ -1,0 +1,39 @@
+<templateSet group="JSP">
+  <template name="tr+" value=" var tr = '';&#10;                $.each(data.beanList, function (i, v) {&#10;                    tr += '';&#10;                });&#10;                tr = tr === '' ? '&lt;TR&gt;&lt;td&gt;&lt;/td&gt;&lt;/TR&gt;' : tr;&#10;                totalPage = data.totalPage;&#10;                $('#tab_list').html(tr);&#10;                $('#totalPage').html('' + data.pageCode + '/' + totalPage + '页' + '   总记录数 ' + data.totalRecord);&#10;" description="快速拼接循环tr" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="url" value="&lt;c:url value=&quot;$end$&quot;/&gt;" description="c:url" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="jss" value="&lt;script src=&quot;&lt;c:url value=&quot;$end$&quot;/&gt;&quot;&gt;&lt;/script&gt;" description="快速导入js" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="link" value="&lt;link rel=stylesheet type=text/css href=&quot;&lt;c:url value=&quot;$end$&quot;/&gt;&quot;&gt;" description="快速导入样式文件" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="js" value="&lt;script&gt;&#10;        $(function () {&#10;            $end$&#10;        })&#10;    &lt;/script&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="dopage" value="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;&lt;c:url value=&quot;/layui/css/layui.css&quot;/&gt;&quot;&gt;&#10;&lt;script src=&quot;&lt;c:url value=&quot;/layui/layui.js&quot;/&gt;&quot;&gt;&lt;/script&gt;&#10;&lt;script&gt;&#10;    var pageCode = 1;&#10;    var pageSize = 3;&#10;    var totalRecord = 1;&#10;    &#10;    //根据需要修改  pageSize   请求地址   请求的处理动作&#10;    function doPage() {&#10;        $.getJSON(&quot;&lt;c:url value=&quot;&quot;/&gt;&quot;, {&#10;            method: ''&#10;            , pageSize: pageSize&#10;            , pageCode: pageCode&#10;        }, function (data) {&#10;            var tr = '';&#10;            $.each(data.beanList, function (i, v) {&#10;                tr += '&lt;tr&gt;' +&#10;                    '  &lt;td&gt;' + v.ID + '&lt;/td&gt;\n' +&#10;                    '  &lt;td&gt;' + v.TOPIC + '&lt;/td&gt;\n' +&#10;                    '  &lt;td&gt;' + v.NICKNAME + '&lt;/td&gt;\n' +&#10;                    '  &lt;td&gt;' + v.ISSUETIME + '&lt;/td&gt;\n' +&#10;                    '  &lt;td&gt;' + v.COUNTREPLY + '&lt;/td&gt;\n' +&#10;                    '  &lt;td&gt;'&#10;                    + '&lt;a class=&quot;layui-btn layui-btn-xs&quot;&gt;查看&lt;/a&gt;\n';&#10;                &#10;                tr += '&lt;/td&gt;&lt;/tr&gt;';&#10;            });&#10;            $('#tab_list').html('' +&#10;                '        &lt;colgroup&gt;\n' +&#10;                '            &lt;col width=&quot;150&quot;&gt;\n' +&#10;                '            &lt;col width=&quot;150&quot;&gt;\n' +&#10;                '            &lt;col width=&quot;200&quot;&gt;\n' +&#10;                '            &lt;col&gt;\n' +&#10;                '            &lt;col&gt;\n' +&#10;                '            &lt;col&gt;\n' +&#10;                '        &lt;/colgroup&gt;\n' +&#10;                '        &lt;thead&gt;\n' +&#10;                '        &lt;tr&gt;\n' +&#10;                '            &lt;th&gt;ID&lt;/th&gt;\n' +&#10;                '            &lt;th&gt;主题&lt;/th&gt;\n' +&#10;                '            &lt;th&gt;昵称&lt;/th&gt;\n' +&#10;                '            &lt;th&gt;发布时间&lt;/th&gt;\n' +&#10;                '            &lt;th&gt;回复数&lt;/th&gt;\n' +&#10;                '            &lt;th&gt;操作&lt;/th&gt;\n' +&#10;                '        &lt;/tr&gt;\n' +&#10;                '        &lt;/thead&gt;\n' + tr);&#10;            totalRecord = data.totalRecord;&#10;        })&#10;    }&#10;&#10;    layui.use('laypage', function () {&#10;        var laypage = layui.laypage;&#10;        laypage.render({&#10;            elem: 'pageBarTool'&#10;            , count: totalRecord //数据总数&#10;            , limit: pageSize&#10;            , jump: function (obj) {&#10;                pageCode = obj.curr;&#10;                doPage();&#10;            }&#10;&#10;        });&#10;    });&#10;&#10;      $(function () {&#10;            doPage();&#10;            setTimeout(setPageBarTool, 500)&#10;        });&#10;&#10;        function setPageBarTool() {&#10;            layui.use('laypage', function () {&#10;                var laypage = layui.laypage;&#10;                laypage.render({&#10;                    elem: 'pageBarTool'&#10;                    , count: totalRecord //数据总数&#10;                    , limit: pageSize&#10;                    , jump: function (obj) {&#10;                        pageCode = obj.curr;&#10;                        doPage();&#10;                    }&#10;                });&#10;            });&#10;        }&#10;&lt;/script&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;div class=&quot;layui-container&quot;&gt;&#10;    &lt;table class=&quot;layui-table&quot; id=&quot;tab_list&quot;&gt;&#10;    &lt;/table&gt;&#10;    &lt;div id=&quot;pageBarTool&quot;&gt;&lt;/div&gt;&#10;&lt;/div&gt;&#10;  &#10;" description="分页, 拼接字符串的方式  在导入jq文件之后      删掉多余的 head /body" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

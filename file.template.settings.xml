@@ -1,0 +1,25 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="dao.java" reformat="true" live-template-enabled="true" />
+      <template name="domain.java" reformat="false" live-template-enabled="true" />
+      <template name="Exception.java" reformat="true" live-template-enabled="true" />
+      <template name="properties.properties" reformat="true" live-template-enabled="true" />
+      <template name="Servlet.java" reformat="true" live-template-enabled="true" />
+      <template name="Test.java" reformat="true" live-template-enabled="true" />
+    </default_templates>
+    <internal_templates>
+      <template name="Class.java" reformat="true" live-template-enabled="true" enabled="true" />
+    </internal_templates>
+    <includes_templates>
+      <template name="File Header.java" reformat="true" live-template-enabled="true" enabled="true" />
+    </includes_templates>
+    <j2ee_templates>
+      <template name="Filter Annotated Class.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Filter Class.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Mybatis Mapper.xml" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Servlet Annotated Class.java" reformat="true" live-template-enabled="true" enabled="true" />
+      <template name="Servlet Class.java" reformat="true" live-template-enabled="true" enabled="true" />
+    </j2ee_templates>
+  </component>
+</application>
